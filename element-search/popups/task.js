@@ -1,7 +1,7 @@
 const modalMain = document.getElementById('modal_main');
 const modalSuccess = document.getElementById('modal_success');
 const modalCloseTimes = Array.from(document.querySelectorAll('.modal__close_times'));
-const btnDanger = document.querySelector('.btnDanger');
+const btnDanger = document.querySelector('.btn_danger');
 const btnSuccess = document.querySelector('.btn_success');
 
 
