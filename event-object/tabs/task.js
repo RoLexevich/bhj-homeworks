@@ -19,8 +19,8 @@ function getContent(e) {
 
     if (e.target !== tabs[currentActiveTab]) {
 
-        tabs[currentActiveTab].classList.remove('tab_active');
-        tabContent[currentActiveContent].classList.remove('tab__content_active');
+        currentActiveTab.classList.remove('tab_active');
+        currentActiveContent.classList.remove('tab__content_active');
         e.target.classList.add('tab_active');
         tabContent[newActiveTabIndex].classList.add('tab__content_active');
 
