@@ -6,7 +6,7 @@ chat.addEventListener('click', () => {
     chat.classList.add('chat-widget_active');
 });
 chatInput.addEventListener('keydown', (e) => {
-    if(e.code === 'Enter') {
+    if(e.code === 'Enter' && chatInput.value && chatInput.value.trim()) {
         writeMessage(chatInput.value);
         botAnswer();
     }
